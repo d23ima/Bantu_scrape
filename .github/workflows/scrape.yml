@@ -22,8 +22,8 @@ jobs:
 
       - name: Run scraper
         env:
-          SUPABASE_URL: ${{ secrets.https://cynutqsogvoelqqanxtq.supabase.co}}
-          SUPABASE_KEY: ${{ secrets.sb_publishable_fvVUlrCIyV_XM_BML6v33A__TcEUqep }}
-          TELEGRAM_TOKEN: ${{ secrets.8468442347:AAEq58e-gYGsOp5h2yV_7NUy-xPkVx6SGMM }}
-          TELEGRAM_CHAT_ID: ${{ secrets.1494535103 }}
+          SUPABASE_URL: ${ secrets.https://cynutqsogvoelqqanxtq.supabase.co}
+          SUPABASE_KEY: ${ secrets.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN5bnV0cXNvZ3ZvZWxxcWFueHRxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMwNjQ5NDksImV4cCI6MjA4ODY0MDk0OX0.-YDdh_RUk7nlyMcs-5d7eVlgTjX8uQ__x2o1aVQmvfw }
+          TELEGRAM_TOKEN: ${ secrets.8468442347:AAEq58e-gYGsOp5h2yV_7NUy-xPkVx6SGMM }
+          TELEGRAM_CHAT_ID: ${ secrets.1494535103 }
         run: python scraper.py
